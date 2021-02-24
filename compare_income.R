@@ -1,6 +1,8 @@
 # Author: Jose Ribas Fernandes
 # Date: Feb 2021
-# Goal: This scripts compares incomes for a sample of letters of comment using census 2016 data
+# Goal: This scripts compares incomes for a sample of letters of comment using census 2016 data. 
+# Approach: Take Forward Sortation Areas (first three letters of postal code) for letters of comment, get the income per capita (Total income/population) and compare
+# it with all forward sortation areas
 # 
 
 packages <- c("openxlsx", "testit", "pacman", "stringi")
