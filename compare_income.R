@@ -30,7 +30,7 @@ assert("Raw data does not seem to be present. Create RawData folder and save nec
 processed <- file.exists(paste(homeDir,"/ProcessedData/","prCER_income.csv", sep = ""))
 
 if (processed==FALSE){
-  #--------Income Analysis----------#
+#--------Income Analysis----------#
   source("preprocess_income_LOC.R")
 } else {
     dataFile   <- 'prCER_income.csv' 
