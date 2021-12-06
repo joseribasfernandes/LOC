@@ -56,7 +56,7 @@ if (processed==FALSE){
 hist(prCER, xlab = "Percentiles of income distribution in Canada", ylab = "# of letters", main = "Income percentiles of letters of comment")
 
 #now plot it. Commenting because this figure takes a while to load.
-#boxplot(CANADAincome,CERincome, horizontal = TRUE, names = c("Canada", "CER"), xlab = "Income per capita ($1000)", main = "Income Distributions Canada and CER")
+boxplot(CANADAincome,CERincome, horizontal = TRUE, names = c("Canada", "CER"), xlab = "Income per capita ($1000)", main = "Income Distributions Canada and CER")
 
 #Plot Lorenz curve for income
 plot(ecdf(prCER), main = "Cumulative distribution of income percentiles for CER's letters", xlab = "Income percentile of Canada", ylab = "Cumulative frequency")
